@@ -1,0 +1,146 @@
+
+* { margin:0; padding:0; }
+
+body {
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 600px;
+	font: 12px "Optima", "Arial", sans-serif;
+	color: #444;
+	font-weight: normal;
+  	text-align: left;
+    line-height: 1.6;
+}
+
+.intro {
+	font-style: italic;
+	font-size: 11px;
+}
+
+.quote {
+	font-style: italic;
+	margin-left: 30px;
+	font-size: 11px;
+}
+
+.rule {
+    width:600px;
+    height:1px;
+    margin-top:30px;
+    margin-bottom:30px;
+    border-bottom: solid 1px #9f9;
+}
+
+h1 {
+    font-size: 18px;
+    margin-top:15px;
+    margin-left: -20px;
+    margin-bottom: 0px;
+	font-weight: normal;
+	color: #0a0;
+	width: 800px;
+}
+
+h2 {
+    margin-left: -20px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    margin-top: -4px;
+	font-weight: normal;
+	color: #0a0;
+}
+
+h4 {
+    font-size: 16px;
+    margin-left: -20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+	font-weight: normal;
+	color: #0a0;
+}
+
+h5 {
+    margin-left: -20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 13px;
+	font-weight: normal;
+	color: #0a0;
+}
+
+
+h3 {
+	color: #777;
+    margin-left: -20px;
+    margin-bottom: 20px;
+    font-size: 10px;
+	font-weight: normal;
+}
+
+.scenario {
+    background-color: #eee;
+    border: solid 1px #bbb;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.pic {
+    margin-bottom:20px;
+}
+
+.rightimg {
+    position:absolute;
+    left:680px;
+}
+
+.bigpic {
+    margin-left: -50px;
+    margin-bottom:20px;
+}
+
+.scenario > p {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.scenario > ul > li {
+    margin-top:4px;
+}
+
+.mockup {
+    margin-top: 15px;
+    margin-left: -20px;
+}
+
+/*
+.mockup_img {
+    border: solid 1px #888;
+} */
+
+ul {
+    margin-left:30px
+}
+
+li {
+    margin-top:5px;
+}
+
+p {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+strong {
+    font-weight:bold;
+	color: #0a0;
+}
+
+img { border:none; }
+
+a { text-decoration:underline; color: #933; border:none; }
+a:hover   { text-decoration:underline; }
+
+
