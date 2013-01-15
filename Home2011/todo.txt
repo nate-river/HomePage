@@ -1,0 +1,88 @@
+must do site
+------------
+
+must do content big
+-------------------
+
+must do content cleanup
+-----------------------
+segment expand buttons somewhere
+
+bugs
+----
+movies don't play on iPad
+
+nice do
+-------
+central place for mootools, avoid redownload
+departure: noPageShadow-1 noPageBackground-1 injectContent-1, preview.png
+sample responses to craigslist
+Expand width as scroll down (use bg color)
+Htaccess for images folders, expires date
+add fruit salad to oatmeal 
+trampoline tech specs, download 
+extract text from svg, add to dark comics html
+try using native scrollbar by using div with overflow:scroll
+page arrow appears when page appears, and then fades away
+momentum slows down as it approaches edge
+pre-compress magic ink html
+home is all the choices -- bring window to front (see fireflies)
+hide address bar on phone
+image service for clickshirt
+zoom-in cursor for images,   cursor: -webkit-zoom-in
+
+features
+--------
+scroll up for recents
+
+bugs
+----
+subsection header jumps when transitioning between stopped and not
+sections stops fucking responding to transform changes
+
+compatibility
+-------------
+
+maybe
+-----
+put blurry preview on top, and fade it out... blurry page?
+
+optimization
+------------
+ExpiresByType caching
+preload base images at start of script, so they load while script is running
+when clicking on a segment (as opposed to scrolling), load iframe immediately
+try to get transitions to work in ff4
+at startup lay out strips for zoomed and not, and save position.
+
+cleanup
+-------
+don't round x and y (round when setting css)
+
+later
+-----
+reflow when resizing window (without destroying site)
+
+ideas
+-----
+colored titles and strips?
+
+notes
+-----
+pause when bringing in scrollbar only happens if page is animatable
+faster in firefox 3 when rotation is zero
+hiding site when scrolling down causes huge hiccup when scrolling back up
+
+test
+----
+chrome
+firefox 3
+firefox 4
+opera
+ipad
+iphone
+
+tangle
+------
+should add formatters etc to Tangle, not tangle
+Tangle.  Eval script within JavaScript "with" operator, No model var

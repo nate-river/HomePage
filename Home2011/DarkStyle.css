@@ -1,0 +1,52 @@
+.darkOverlay {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:100%;
+  height:480px;
+  background-image:url(http://worrydream.com/media/DarkOverlay.png);
+  pointer-events:none;
+}
+
+.darkContent {
+  font: 12px "Arial", sans-serif;
+  color: #555;
+  position:relative;
+}
+
+.darkContent img {
+  display:block;
+  margin:0;
+  padding:0;
+  border-style:none;
+}
+
+.darkContent a {
+  position:absolute;
+  text-decoration:none;
+  border-style:none;
+}
+
+.darkContent a.highlight:hover {
+    background-color:rgba(12,12,12,0.3);
+}
+
+.darkContent a.highlight:active {
+    background-color:rgba(12,12,12,0.5);
+}
+
+.darkContent a.highlight2:hover {
+    background-color:rgba(64,64,64,0.3);
+}
+
+.darkContent a.highlight2:active {
+    background-color:rgba(64,64,64,0.5);
+}
+
+.darkContent a.highlightBlack:hover {
+    background-color:rgba(0,0,0,0.3);
+}
+
+.darkContent a.highlightBlack:active {
+    background-color:rgba(0,0,0,0.5);
+}

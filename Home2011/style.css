@@ -1,0 +1,174 @@
+* { margin:0; padding:0; }
+
+
+/*------------------------------------------------------------------------*/
+/*  body  */
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+    background: black;
+    font: 13px "Helvetica-Neue", "Helvetica", "Arial", sans-serif;
+    color: white;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+/*------------------------------------------------------------------------*/
+/*  sections (fallback)  */
+
+#sections {
+	margin-left:20px;
+}
+
+#sections li {
+	margin-left:20px;
+	margin-top:4px;
+	margin-bottom:4px;
+	list-style: none;
+}
+
+#sections h1 {
+	margin-top:10px;
+    font: 26px "Helvetica-Neue", "Helvetica", "Arial", sans-serif;
+}
+
+#sections h2 {
+	margin-top:20px;
+	margin-left:20px;
+    font: 16px "Helvetica-Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: bold;
+}
+
+#sections h3 {
+	margin-top:3px;
+	margin-bottom:16px;
+    font: 12px "Helvetica-Neue", "Helvetica", "Arial", sans-serif;
+    font-style: italic;
+	color: #999;
+}
+
+#sections a {
+	color: #833;
+}
+
+#sections div {
+	padding-bottom:20px;
+}
+
+
+
+/*------------------------------------------------------------------------*/
+/*  sections  */
+
+#sections {
+    display:none;
+}
+
+.sectionTitle {
+	font: 28px "KomikaAxisRegular", sans-serif;
+	color: #fff;
+	white-space:nowrap;
+	text-align:center;
+}
+
+.sectionSubtitle {
+	font: 13px "KomikaTextRegular", sans-serif;
+	color: #fff;
+	line-height: 100%;
+	white-space:nowrap;
+	text-align:center;
+}
+
+
+/*------------------------------------------------------------------------*/
+/*  strips  */
+
+.stripHeader {
+	font: 20px "KomikaAxisRegular", sans-serif;
+	color: #fff;
+	text-align:right;
+	line-height: 120%;
+}
+
+.stripHeaderSmall {
+	font: 16px "KomikaAxisRegular", sans-serif;
+	color: #fff;
+	text-align:right;
+	line-height: 120%;
+}
+
+
+/*------------------------------------------------------------------------*/
+/*  segments  */
+
+.segmentTitle {
+	font: 14px "KomikaAxisRegular", sans-serif;
+	color: #000;
+	margin: 144px 10px 4px 10px;
+	line-height: 120%;
+}
+
+.segmentTitleSolo {
+	font: 14px "KomikaAxisRegular", sans-serif;
+	color: #000;
+	text-align: center;
+	margin: 146px 10px 13px 10px;
+	line-height: 120%;
+}
+
+.segmentTitleSmall {
+	font-size:12px;
+}
+
+.segmentSubtitle {
+	font: 14px "KomikaTextTightRegular", sans-serif;
+	color: #000;
+	margin: 0px 10px 8px 10px;
+	line-height: 100%;
+}
+
+.segmentSubtitleSolo {
+	font: 14px "KomikaTextTightRegular", sans-serif;
+	color: #000;
+	margin: 144px 10px 8px 10px;
+	line-height: 110%;
+}
+
+
+/*------------------------------------------------------------------------*/
+/*  pages  */
+
+.pageCaption {
+	font: 12px "KomikaTextRegular", sans-serif;
+	color: #a3866f;
+	line-height: 100%;
+	white-space:nowrap;
+}
+
+.pageCaption a {
+	color: #b3967f;
+}
+
+.pageCaption a:hover {
+	color: #83664f;
+}
+
+
+/*------------------------------------------------------------------------*/
+/*  contact  */
+
+.contactCaption {
+	font: 15px "KomikaTextTightRegular", sans-serif;
+	color: #fff;
+	line-height: 100%;
+	text-align: right;
+}
+
