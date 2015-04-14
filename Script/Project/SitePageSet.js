@@ -39,7 +39,7 @@ var SitePageSet = this.SitePageSet = new Class({
 		this.backgroundGradient = new BVLayer(this);
 		this.backgroundGradient.setAccelerated(true);
 		this.backgroundGradient.setHidden(true);
-		this.backgroundGradient.setContentsURL("Images/BackgroundGradient.png");
+		// this.backgroundGradient.setContentsURL("Images/BackgroundGradient.png");
 		this.backgroundGradient.setY(-this.site.height);
 		this.backgroundGradient.setSize(this.site.width, this.site.height + this.backgroundGradientY);
 	},

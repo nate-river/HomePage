@@ -75,7 +75,6 @@ var lerp = function(a,b,t) { return a + t * (b - a); };
 //
 //  Site
 //
-
 var Site = this.Site = new Class({
 
 	Extends: BVLayer,
@@ -94,8 +93,10 @@ var Site = this.Site = new Class({
 		
 		this.setTouchable(true);
 		this.setSize(this.root.getSize());
-		this.setMasksToBounds(true);
-		
+
+        //:TODO
+		// this.setMasksToBounds(true);
+
 		this.background = new SiteBackground(this);
 
 		this.sectionsContainer = new BVLayer(this);  // to reserve z-order

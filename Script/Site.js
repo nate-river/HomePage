@@ -94,7 +94,7 @@ var Site = this.Site = new Class({
 		
 		this.setTouchable(true);
 		this.setSize(this.root.getSize());
-		this.setMasksToBounds(true);
+		// this.setMasksToBounds(true);
 		
 		this.background = new SiteBackground(this);
 
