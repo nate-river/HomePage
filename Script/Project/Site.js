@@ -113,8 +113,8 @@ var Site = this.Site = new Class({
 		this.pageArrowRegionLeft = new SitePageArrowRegion(this,false);
 		this.pageArrowRegionRight = new SitePageArrowRegion(this,true);
 		
-		this.topContactSet = new SiteContactSet(this, "top");
-		this.bottomContactSet = new SiteContactSet(this, "bottom");
+		// this.topContactSet = new SiteContactSet(this, "top");
+		// this.bottomContactSet = new SiteContactSet(this, "bottom");
 		
 		this.headerTitles = new BVLayer(this);
 		this.doodle = new SiteDoodle(this);
@@ -582,10 +582,10 @@ var Site = this.Site = new Class({
 	},
 
 	updateContactsPosition: function () {
-		this.topContactSet.setY(this.scrollY - 7);
-		this.bottomContactSet.setY(this.scrollY - this.sections.height + 22);
-		this.topContactSet.setHidden(this.isZoomed);
-		this.bottomContactSet.setHidden(this.isZoomed);
+		// this.topContactSet.setY(this.scrollY - 7);
+		// this.bottomContactSet.setY(this.scrollY - this.sections.height + 22);
+		// this.topContactSet.setHidden(this.isZoomed);
+		// this.bottomContactSet.setHidden(this.isZoomed);
 	},
 
 	updateDoodlePosition: function () {
